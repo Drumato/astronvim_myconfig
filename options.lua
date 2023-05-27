@@ -5,8 +5,35 @@ return {
     relativenumber = true, -- sets vim.opt.relativenumber
     number = true, -- sets vim.opt.number
     spell = false, -- sets vim.opt.spell
-    signcolumn = "auto", -- sets vim.opt.signcolumn to auto
+    signcolumn = "number", -- sets vim.opt.signcolumn to auto
     wrap = false, -- sets vim.opt.wrap
+    undofile = false,
+    swapfile = false
+    hidden = true
+    backup = false
+    writebackup = false
+    cursorline = true
+    cursorcolumn = true
+
+    autoindent = true
+    expandtab = true
+    smarttab = true
+    vtabstop = 4
+    softtabstop = 0
+    shiftwidth = 4
+    backspace = 4
+    backspace = 'indent,eol,start'
+
+    cmdheight = 2
+    laststatus = 2
+    updatetime = 300
+    foldmethod = 'syntax'
+    encoding = 'utf-8'
+    -- vim.o.clipboard = vim.o.clipboard ..  'unnamedplus'
+    -- vim.o.shortmess = vim.o.shortmess ..  'c'
+    wildmenu = true
+    wildmode = 'full'
+    termguicolors = true
   },
   g = {
     mapleader = " ", -- sets vim.g.mapleader
