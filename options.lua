@@ -18,7 +18,6 @@ return {
     autoindent = true,
     expandtab = true,
     smarttab = true,
-    vtabstop = 4,
     softtabstop = 0,
     shiftwidth = 4,
     backspace = 4,
